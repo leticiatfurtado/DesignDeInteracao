@@ -1,0 +1,30 @@
+body {
+  background-color: #f8f9fa;
+}
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-start;
+}
+.card {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+.banner {
+  width: 100%;
+}
+#cartao {
+  padding: 20px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  border-width: 2px;
+  border-style: solid;
+  height: 400px;
+  background-size: cover;
+  white-space: pre-wrap; /* Mantém quebras de linha */
+}
