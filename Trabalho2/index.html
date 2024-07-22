@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça aos Ovos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h3>CAÇA AOS OVOS!</h3>
+    <p>Você deve coletar somente os ovos de páscoa, se pegar o lixo ou deixar algum ovinho passar, perde o jogo.</p>
+    <div id="game-container">
+        <img id="player" src="img/cesta.fw.png" alt="Player">
+        <div id="game-over-message" style="display: none;"><b>FIM DO JOGO!</b></div>
+    </div>
+    <div id="score-board">
+        <button id="start-button">Iniciar</button>
+        <button id="restart-button" style="display: none;">Reiniciar</button>
+        <div id="score">Pontuação: 0</div>
+        <div id="record">Recorde: 0</div>
+    </div>
+    <script src="JavaScript/script.js"></script>
+    <audio id="capture-sound" src="sons/somColeta.mp3"></audio>
+    <audio id="game-over-music" src="sons/somFim.mp3"></audio>
+</body>
+</html>
